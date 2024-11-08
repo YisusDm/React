@@ -1,0 +1,15 @@
+* {
+  font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 75%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 50px auto 50px;
+}

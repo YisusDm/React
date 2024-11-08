@@ -1,0 +1,25 @@
+{
+    "peliculas":[
+        {
+            "id":1,
+            "nombre":"uuuuuu",
+            "pais":"M.dfghjk",
+            "capital_bursatil": "898984545",
+            "tipoModal": "fghjk"
+        },
+        {
+            "id":2,
+            "nombre":"asa",
+            "pais":"M.uygg",
+            "capital_bursatil": "11111111",
+            "tipoModal": "fghjk"
+        },
+        {
+            "id":3,
+            "nombre":"hg",
+            "pais":"M.pppp",
+            "capital_bursatil": "33343434",
+            "tipoModal": "fghjk"
+        }
+    ]
+}

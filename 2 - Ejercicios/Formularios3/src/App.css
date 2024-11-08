@@ -1,0 +1,73 @@
+
+
+
+body{
+  margin-top: 100px ;
+  margin-left: 500px;
+  background-color: #781cce;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+button{
+  margin-left: 10px;
+  border: none;
+}
+
+label, input, select{
+  display: block;
+  margin-bottom: 5px;
+}
+
+label, button{
+  border: none;
+  margin-top: 10px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+input[type="radio"]:first, input[type="checkbox"]:first{
+  display: inline-block;
+  margin-left: 0px;
+}
+
+.final{
+  border: none;
+  padding: 5%;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
