@@ -1,0 +1,100 @@
+aside {
+  background-color: rgb(230, 230, 230);
+  grid-row: 2/3;
+  grid-column: 1/2;
+  display: grid;
+  grid-template-columns: 15px auto 15px;
+}
+
+/*Seccion NombreFoto*/
+aside > .nombrefoto {
+  grid-column: 1/4;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(57, 90, 135);
+  border-radius: 0px 0px 60% 60%;
+  margin-bottom: 90px;
+}
+
+aside > .nombrefoto > h1 {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(222, 233, 252)
+}
+
+aside > .nombrefoto > img {
+  position: absolute;
+  display: block;
+  margin-left: 95px;
+  width: 10%;
+  border-radius: 50%;
+}
+/*Seccion NombreFoto*/
+
+aside > .datospersonales,
+.competencias,
+.aptitudes {
+  grid-column: 2/3;
+  margin-bottom: 10px;
+}
+aside > * > h2{
+  border-bottom: 1px solid #6d6d6d;
+  padding-bottom: 5px;
+  font-size: 20px;
+  color: rgb(59, 91, 126);
+}
+
+aside > * > ul > li{
+  margin: 10px 0px;
+}
+
+/*Seccion Datos Personales*/
+aside > .datospersonales {
+  margin-top: 70px;
+}
+aside > .datospersonales > p{
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: rgb(59, 91, 126);
+}
+
+aside > .datospersonales > p > span{
+  font-weight: 400;
+  margin-left: 5px;
+  color: #000000;
+}
+/*Seccion Datos Personales*/
+
+/*Seccion Competencia*/
+
+aside > .competencias > ul {
+  margin: 0px 5px;
+  list-style: none;
+}
+
+aside > .competencias > ul > li {
+  display: grid;
+  font-weight: 500;
+  grid-template-columns: 70px 80px 50px;
+}
+
+aside > .competencias > ul > li > .nombreTecnologia {
+  grid-column: 1/2;
+}
+
+aside > .competencias > ul > li > .conocimientoTecnologia {
+  grid-column: 3/4;
+}
+/*Seccion Competencia*/
+
+/*Seccion Aptitudes*/
+aside > .aptitudes {
+  font-weight: 500;
+  grid-column: 2/3;
+}
+
+aside > .aptitudes > ul {
+  margin: 0px 20px;
+  list-style-type: square;
+}
+/*Seccion Aptitudes*/
